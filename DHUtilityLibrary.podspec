@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.authors      = {'Liu Donghao' => 'uldh@163.com'}
     s.platform     = :ios, '7.0'
     s.source       = {:git => 'https://github.com/uldh/DHUtilityLibrary.git', :tag => s.version}
-    s.source_files = 'DHUtilityLibrary/**/*.{h,m}'
+    s.source_files = 'DHUtilityLibrary/DHUtilityLibrary/**/*.{h,m}'
     s.requires_arc = true
     s.dependency   'Masonry'
 end

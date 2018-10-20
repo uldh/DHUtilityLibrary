@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name         = 'DHUtilityLibrary'
-    s.version      = '0.0.2'
+    s.version      = '0.0.3'
     s.summary      = 'utility library for ios develope'
     s.homepage     = 'https://github.com/uldh/DHUtilityLibrary'
     s.license      = 'MIT'

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D6CA40896590E11D46F1DF0 /* libPods-DHUtilityLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09B63771C0BB9E7EF9503A /* libPods-DHUtilityLibrary.a */; };
+		E30487372180B77C0028229C /* DYDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E30487352180B77C0028229C /* DYDeviceInfo.m */; };
 		E3389B42217B0792007FAA58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3389B41217B0792007FAA58 /* AppDelegate.m */; };
 		E3389B45217B0792007FAA58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3389B44217B0792007FAA58 /* ViewController.m */; };
 		E3389B48217B0792007FAA58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3389B46217B0792007FAA58 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 		3CCC5D73172C885A61620661 /* Pods-DHUtilityLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHUtilityLibrary.debug.xcconfig"; path = "Target Support Files/Pods-DHUtilityLibrary/Pods-DHUtilityLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		C12497B2D705D3F00F7C3DCA /* Pods-DHUtilityLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHUtilityLibrary.release.xcconfig"; path = "Target Support Files/Pods-DHUtilityLibrary/Pods-DHUtilityLibrary.release.xcconfig"; sourceTree = "<group>"; };
 		CE09B63771C0BB9E7EF9503A /* libPods-DHUtilityLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHUtilityLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30487352180B77C0028229C /* DYDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDeviceInfo.m; sourceTree = "<group>"; };
+		E30487362180B77C0028229C /* DYDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDeviceInfo.h; sourceTree = "<group>"; };
 		E3389B3D217B0792007FAA58 /* DHUtilityLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHUtilityLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3389B40217B0792007FAA58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3389B41217B0792007FAA58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,6 +97,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E30487342180B6EB0028229C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E30487362180B77C0028229C /* DYDeviceInfo.h */,
+				E30487352180B77C0028229C /* DYDeviceInfo.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		E3389B34217B0792007FAA58 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +155,7 @@
 		E3389B64217B08BE007FAA58 /* DHUtilityLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				E30487342180B6EB0028229C /* Utility */,
 				E3389B67217B0A77007FAA58 /* Foundation */,
 				E3389B65217B0A43007FAA58 /* UI */,
 			);
@@ -299,6 +312,7 @@
 			files = (
 				E3389B45217B0792007FAA58 /* ViewController.m in Sources */,
 				E3389B50217B0796007FAA58 /* main.m in Sources */,
+				E30487372180B77C0028229C /* DYDeviceInfo.m in Sources */,
 				E3389B42217B0792007FAA58 /* AppDelegate.m in Sources */,
 				E3389B76217B13C4007FAA58 /* NSDictionary+SafeAccess.m in Sources */,
 				E3389B70217B105F007FAA58 /* UIView+EqualGap.m in Sources */,

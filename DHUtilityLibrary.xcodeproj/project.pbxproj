@@ -20,6 +20,7 @@
 		E3389B70217B105F007FAA58 /* UIView+EqualGap.m in Sources */ = {isa = PBXBuildFile; fileRef = E3389B6F217B105F007FAA58 /* UIView+EqualGap.m */; };
 		E3389B76217B13C4007FAA58 /* NSDictionary+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E3389B72217B13C4007FAA58 /* NSDictionary+SafeAccess.m */; };
 		E3389B77217B13C4007FAA58 /* NSArray+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E3389B75217B13C4007FAA58 /* NSArray+SafeAccess.m */; };
+		E36B7FE121A0035E00FC6ED3 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E36B7FE021A0035E00FC6ED3 /* NSDate+Extensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,9 @@
 		E3389B73217B13C4007FAA58 /* NSDictionary+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeAccess.h"; sourceTree = "<group>"; };
 		E3389B74217B13C4007FAA58 /* NSArray+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeAccess.h"; sourceTree = "<group>"; };
 		E3389B75217B13C4007FAA58 /* NSArray+SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeAccess.m"; sourceTree = "<group>"; };
+		E36B7FDF21A0035E00FC6ED3 /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
+		E36B7FE021A0035E00FC6ED3 /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
+		E3D9158F2184296B001BD25D /* MacroUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroUtilities.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,7 @@
 		E3389B64217B08BE007FAA58 /* DHUtilityLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				E3D9158F2184296B001BD25D /* MacroUtilities.h */,
 				E30487342180B6EB0028229C /* Utility */,
 				E3389B67217B0A77007FAA58 /* Foundation */,
 				E3389B65217B0A43007FAA58 /* UI */,
@@ -176,6 +181,8 @@
 		E3389B67217B0A77007FAA58 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				E36B7FDF21A0035E00FC6ED3 /* NSDate+Extensions.h */,
+				E36B7FE021A0035E00FC6ED3 /* NSDate+Extensions.m */,
 				E3389B74217B13C4007FAA58 /* NSArray+SafeAccess.h */,
 				E3389B75217B13C4007FAA58 /* NSArray+SafeAccess.m */,
 				E3389B73217B13C4007FAA58 /* NSDictionary+SafeAccess.h */,
@@ -316,6 +323,7 @@
 				E3389B42217B0792007FAA58 /* AppDelegate.m in Sources */,
 				E3389B76217B13C4007FAA58 /* NSDictionary+SafeAccess.m in Sources */,
 				E3389B70217B105F007FAA58 /* UIView+EqualGap.m in Sources */,
+				E36B7FE121A0035E00FC6ED3 /* NSDate+Extensions.m in Sources */,
 				E3389B6A217B0CFB007FAA58 /* UIView+LayoutMethods.m in Sources */,
 				E3389B77217B13C4007FAA58 /* NSArray+SafeAccess.m in Sources */,
 			);

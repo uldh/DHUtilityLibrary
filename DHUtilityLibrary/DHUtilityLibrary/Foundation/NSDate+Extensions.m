@@ -66,52 +66,7 @@
     NSArray * arrayTemp = [timeNow componentsSeparatedByString:@"."];
     NSString * str = [arrayTemp componentsJoinedByString:@""];
     return str;
-//    return [NSString stringWithFormat:@"%ld",(long)([[NSDate date] timeIntervalSince1970]*1000000)];
-
-//    return [timeNow stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"."]];
 }
-
-//+(NSString*)timeConvertFrom:(NSTimeInterval) messageTime
-//{
-//    NSString *result = nil;
-//    
-//    NSCalendarUnit components = (NSCalendarUnit)(NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay|NSHourCalendarUnit | NSMinuteCalendarUnit|NSCalendarUnitWeekday);
-//    NSDateComponents *dateComponents = [self stringFromTimeInterval:messageTime components:components];
-//    if ([self isTheSameDay:[[NSDate date] timeIntervalSinceNow] compareTime:dateComponents]) {
-//        result = [NSString stringWithFormat:@"%@ %02zd:%02zd",NSLocalizedString(@"今天 ", nil), dateComponents.hour,dateComponents.minute];
-//    } else if ([self isTheSameDay:([[NSDate date] timeIntervalSinceNow] - OnedayTimeIntervalValue) compareTime:dateComponents])
-//    {
-//        result = [NSString stringWithFormat:@"%@ %02zd:%02zd",NSLocalizedString(@"昨天 ", nil), dateComponents.hour,dateComponents.minute];;
-//    } else if ([self isTheSameDay:([[NSDate date] timeIntervalSinceNow] - OnedayTimeIntervalValue*2) compareTime:dateComponents])
-//    {
-//        result = [NSString stringWithFormat:@"%@ %02zd:%02zd",NSLocalizedString(@"前天 ", nil), dateComponents.hour,dateComponents.minute];;
-//    } else if ([self isTheSameDay:([[NSDate date] timeIntervalSinceNow] - OnedayTimeIntervalValue*7) compareTime:dateComponents])
-//    {
-//        result =[NSString stringWithFormat:@"%@ %02zd:%02zd",[self weekdayStr:dateComponents.weekday], dateComponents.hour,dateComponents.minute];;
-//        
-//    } else
-//    {
-//        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-//        [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm"];
-//        result = [dateFormatter stringFromDate:[NSDate dateWithTimeIntervalSince1970:messageTime]];
-//    }
-//    return result;
-//}
-//
-//+(BOOL)isTheSameDay:(NSTimeInterval)currentTime compareTime:(NSDateComponents*)older
-//{
-//    NSCalendarUnit currentComponents = (NSCalendarUnit)(NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay|NSHourCalendarUnit | NSMinuteCalendarUnit);
-//    NSDateComponents *current = [[NSCalendar currentCalendar] components:currentComponents fromDate:[NSDate dateWithTimeIntervalSinceNow:currentTime]];
-//    
-//    return current.year == older.year && current.month == older.month && current.day == older.day;
-//}
-//
-//
-//+(NSDateComponents*)stringFromTimeInterval:(NSTimeInterval)messageTime components:(NSCalendarUnit)components
-//{
-//    NSDateComponents *dateComponents = [[NSCalendar currentCalendar] components:components fromDate:[NSDate dateWithTimeIntervalSince1970:messageTime]];
-//    return dateComponents;
-//}
 
 
 + (NSTimeInterval)timeNowDouble{
@@ -197,11 +152,6 @@
     NSDateFormatter *formatterFinal = [[NSDateFormatter alloc] init];
     [formatterFinal setDateFormat:@"dd"];
     NSString* day = [formatterFinal stringFromDate:date];
-//    if ([day characterAtIndex:0] == '0') {//去掉前面的0，20160323需求变更为不去掉0，故注掉
-//        return [NSString stringWithFormat:@"%@日",[day substringFromIndex:1]];
-//    }else{
-//        return [NSString stringWithFormat:@"%@日",day];
-//    }
     return [NSString stringWithFormat:@"%@日",day];
 }
 + (NSString *)kickOffTime:(NSTimeInterval)time{
@@ -317,7 +267,6 @@
         if (hour > 12){
             hour = hour - 12;
         }
-//        result = [[NSString alloc] initWithFormat:@"%@ %zd:%02d",result,hour,(int)msgDateComponents.minute];
         result = [[NSString alloc] initWithFormat:@"%ld小时前",(long)(nowDateComponents.hour-msgDateComponents.hour)];
     }else if((nowDateComponents.day > msgDateComponents.day)&&(nowDateComponents.day <(msgDateComponents.day+7))){//大于24小时，小于一周，展示X天前
         result = [NSString stringWithFormat:@"%ld天前",(long)(nowDateComponents.day - msgDateComponents.day)];

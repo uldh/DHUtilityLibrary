@@ -15,6 +15,8 @@
 #define mm_ss                @"mm:ss"
 #define HH_mm_ss                @"HH:mm:ss"
 #define YYYY_MM_dd_dot           @"YYYY.MM.dd"
+#define yyyyMMddhhmmss           @"yyyyMMddhhmmss"
+
 typedef enum{
     TimeLocationEarly,
     TimeLocationSame,

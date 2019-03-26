@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5908BAFB224A362B00B91DC7 /* ScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908BAF9224A362B00B91DC7 /* ScrollTextView.m */; };
 		595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF6223FAAD30055B8A4 /* RSA.m */; };
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
 		8D6CA40896590E11D46F1DF0 /* libPods-DHUtilityLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09B63771C0BB9E7EF9503A /* libPods-DHUtilityLibrary.a */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		3CCC5D73172C885A61620661 /* Pods-DHUtilityLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHUtilityLibrary.debug.xcconfig"; path = "Target Support Files/Pods-DHUtilityLibrary/Pods-DHUtilityLibrary.debug.xcconfig"; sourceTree = "<group>"; };
+		5908BAF9224A362B00B91DC7 /* ScrollTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollTextView.m; sourceTree = "<group>"; };
+		5908BAFA224A362B00B91DC7 /* ScrollTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollTextView.h; sourceTree = "<group>"; };
 		595D8EF5223FAAD30055B8A4 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		595D8EF6223FAAD30055B8A4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		595D8EF8223FAB2C0055B8A4 /* RSA_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA_Demo.h; sourceTree = "<group>"; };
@@ -99,6 +102,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5908BAF8224A361B00B91DC7 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				5908BAFA224A362B00B91DC7 /* ScrollTextView.h */,
+				5908BAF9224A362B00B91DC7 /* ScrollTextView.m */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		5908BAFC224A363400B91DC7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				595D8EF4223FAAB80055B8A4 /* RSA */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		595D8EF4223FAAB80055B8A4 /* RSA */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +143,6 @@
 			children = (
 				E30487362180B77C0028229C /* DYDeviceInfo.h */,
 				E30487352180B77C0028229C /* DYDeviceInfo.m */,
-				595D8EF4223FAAB80055B8A4 /* RSA */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -178,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				E3D9158F2184296B001BD25D /* MacroUtilities.h */,
+				5908BAFC224A363400B91DC7 /* Tools */,
+				5908BAF8224A361B00B91DC7 /* SubViews */,
 				E30487342180B6EB0028229C /* Utility */,
 				E3389B67217B0A77007FAA58 /* Foundation */,
 				E3389B65217B0A43007FAA58 /* UI */,
@@ -341,6 +362,7 @@
 				595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */,
 				E36B7FE121A0035E00FC6ED3 /* NSDate+Extensions.m in Sources */,
 				E3389B6A217B0CFB007FAA58 /* UIView+LayoutMethods.m in Sources */,
+				5908BAFB224A362B00B91DC7 /* ScrollTextView.m in Sources */,
 				E3389B77217B13C4007FAA58 /* NSArray+SafeAccess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -96,13 +96,13 @@
 }
 - (void)loadImage:(NSString *)imageIconURL title:(NSString *)title{
 //    self.imageViewIcon.image = imageIcon;
-    [self.imageViewIcon sd_setImageWithURL:[NSURL URLWithString:imageIconURL] placeholderImage:PlaceHolderAvatarImg];
+    [self.imageViewIcon sd_setImageWithURL:[NSURL URLWithString:imageIconURL] placeholderImage:nil];
     self.labelTitle.text = title;
 }
 - (UIImageView *)imageViewIcon{
     if (!_imageViewIcon) {
         _imageViewIcon = [[UIImageView alloc] initWithFrame:CGRectMake(12, 0, SingleTextViewHeight, SingleTextViewHeight)];
-        [Helper setcornerRadiusWithView:_imageViewIcon radius:_imageViewIcon.height*0.5];
+//        [Helper setcornerRadiusWithView:_imageViewIcon radius:_imageViewIcon.height*0.5];
         [self addSubview:_imageViewIcon];
     }
     return _imageViewIcon;

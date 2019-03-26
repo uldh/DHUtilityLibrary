@@ -1,16 +1,28 @@
 PODS:
   - Masonry (1.1.0)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - Masonry (>= 1.0.2)
+  - SDWebImage (~> 3.7.1)
+  - YYKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Masonry
+    - SDWebImage
+    - YYKit
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 5ada6bca1548302af5770cb071da12eecdc6edd9
+PODFILE CHECKSUM: 8f4d5710ac8065e9172d4fa15884c52391a647c1
 
-COCOAPODS: 1.6.0.beta.1
+COCOAPODS: 1.6.0.rc.2

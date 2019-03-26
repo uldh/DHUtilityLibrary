@@ -81,6 +81,7 @@
 		ED55250C224A4E57009457BB /* DHFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFileManager.m; sourceTree = "<group>"; };
 		ED55250D224A4E57009457BB /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
 		ED55250E224A4E57009457BB /* SQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteHelper.h; sourceTree = "<group>"; };
+		ED552513224A5A39009457BB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +191,7 @@
 				E3389B4B217B0796007FAA58 /* LaunchScreen.storyboard */,
 				E3389B4E217B0796007FAA58 /* Info.plist */,
 				E3389B4F217B0796007FAA58 /* main.m */,
+				ED552513224A5A39009457BB /* PrefixHeader.pch */,
 			);
 			path = DHUtilityLibrary;
 			sourceTree = "<group>";
@@ -549,7 +551,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72L4LYLYP6;
+				DEVELOPMENT_TEAM = 8DXZ4T7CFV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DHUtilityLibrary/PrefixHeader.pch";
 				INFOPLIST_FILE = DHUtilityLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -568,7 +571,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72L4LYLYP6;
+				DEVELOPMENT_TEAM = 8DXZ4T7CFV;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DHUtilityLibrary/PrefixHeader.pch";
 				INFOPLIST_FILE = DHUtilityLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

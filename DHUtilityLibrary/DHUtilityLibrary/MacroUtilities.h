@@ -28,5 +28,5 @@
 #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
-#define NSBundle_View(nibname,index) [[[NSBundle mainBundle] loadNibNamed:nibname owner:nil options:nil] objectAtIndex:index]
+#define NSBundle_View(nibname,index) [[[NSBundle mainBundle] loadNibNamed:nibname owner:nil options:nil] objectAtIndex:index];
 #endif /* MacroUtilities_h */

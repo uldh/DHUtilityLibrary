@@ -1,5 +1,5 @@
 //
-//  OTUniversalMethod.h
+//  DHSystemFunction.h
 //  HsApp
 //
 //  Created by s1614 on 16/1/20.
@@ -8,13 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface OTUniversalMethod : NSObject
+extern NSString * const NOTIFICATION_DID_LOCAL_NOTIFY_CHANGED;
+
+@interface DHSystemFunction : NSObject
 
 + (instancetype)share;
 - (BOOL)isSystemNotificationOpened;
 @end
 
-@interface OTUniversalMethod (LocalNotification)
+@interface DHSystemFunction (LocalNotification)//本地推送提醒
 - (void)makeLocalNotification:(NSString *)key content:(NSString *)content info:(NSString *)info after:(NSTimeInterval)seconds;
 - (void)cancelLocalNotification:(NSString *)key;
 - (BOOL)isKeyFindInLocalNotification:(NSString *)key;
@@ -22,11 +24,11 @@
 
 @end
 
-@interface OTUniversalMethod(Camera)
+@interface DHSystemFunction(Camera)
 - (BOOL)isCameraAvailable;
 @end
 
-@interface OTUniversalMethod (VisitDevice)
+@interface DHSystemFunction (VisitDevice)
 - (BOOL)isAvailablyForAlbum;
 
 - (BOOL)isAvailablyForCamera;
@@ -34,11 +36,11 @@
 - (BOOL)isAvailablyForAddressBook;
 @end
 
-@interface OTUniversalMethod (AppInfo)
+@interface DHSystemFunction (AppInfo)
 - (UIImage *)appIcon;
 
 @end
 
-@interface OTUniversalMethod (URL)
+@interface DHSystemFunction (URL)
 - (NSMutableDictionary *)getURLParameters:(NSString *)urlStr;//获取 URL 的参数，以 DICT 形式返回
 @end

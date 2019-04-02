@@ -1,28 +1,28 @@
 //
-//  OTUniversalMethod.m
+//  DHSystemFunction.m
 //  HsApp
 //
 //  Created by s1614 on 16/1/20.
 //  Copyright © 2016年 s1614. All rights reserved.
 //
 
-#import "OTUniversalMethod.h"
+#import "DHSystemFunction.h"
 #import <Photos/Photos.h>
 #import <AssetsLibrary/ALAssetsLibrary.h>
 #import <AddressBook/AddressBook.h>
 #import <AddressBookUI/AddressBookUI.h>
-
-static OTUniversalMethod *instance = nil;
+NSString * const NOTIFICATION_DID_LOCAL_NOTIFY_CHANGED = @"NOTIFICATION_DID_LOCAL_NOTIFY_CHANGED";
+static DHSystemFunction *instance = nil;
 static int HOS_ALERT_TAG_ALBUM = 996;
 static int HOS_ALERT_TAG_CAMERA = 997;
 static int HOS_ALERT_TAG_ADDRESSBOOK = 998;
 
-@implementation OTUniversalMethod
+@implementation DHSystemFunction
 + (instancetype)share{
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        instance = [[OTUniversalMethod alloc] init];
+        instance = [[DHSystemFunction alloc] init];
     });
     return  instance;
 }
@@ -45,7 +45,7 @@ static int HOS_ALERT_TAG_ADDRESSBOOK = 998;
 
 @end
 
-@implementation OTUniversalMethod (LocalNotification)
+@implementation DHSystemFunction (LocalNotification)
 
 - (void)makeLocalNotification:(NSString *)key content:(NSString *)content info:(NSString *)info after:(NSTimeInterval)seconds{
     NSDate *date = [NSDate dateWithTimeIntervalSinceNow:seconds];
@@ -108,7 +108,9 @@ static int HOS_ALERT_TAG_ADDRESSBOOK = 998;
         }
     }
 }
-
+- (void)notificationChangedNotifiy{
+    [[NSNotificationCenter defaultCenter]postNotificationName:NOTIFICATION_DID_LOCAL_NOTIFY_CHANGED object:nil];
+}
 - (BOOL)isKeyFindInLocalNotification:(NSString *)key{
     //获取本地推送数组
     NSArray *localArray = [[UIApplication sharedApplication] scheduledLocalNotifications];
@@ -131,7 +133,7 @@ static int HOS_ALERT_TAG_ADDRESSBOOK = 998;
 @end
 
 
-@implementation OTUniversalMethod (VisitDevice)
+@implementation DHSystemFunction (VisitDevice)
 - (BOOL)isAvailablyForAlbum {
     ALAuthorizationStatus author = [ALAssetsLibrary authorizationStatus];
     if (author == ALAuthorizationStatusRestricted || author == ALAuthorizationStatusDenied){
@@ -202,7 +204,7 @@ static int HOS_ALERT_TAG_ADDRESSBOOK = 998;
 
 @end
 
-@implementation OTUniversalMethod (Camera)
+@implementation DHSystemFunction (Camera)
 
 - (BOOL)isCameraAvailable{
     NSString *mediaType = AVMediaTypeVideo;
@@ -219,7 +221,7 @@ static int HOS_ALERT_TAG_ADDRESSBOOK = 998;
 
 
 
-@implementation OTUniversalMethod (AppInfo)
+@implementation DHSystemFunction (AppInfo)
 
 - (UIImage *)appIcon{
     NSDictionary *infoPlist = [[NSBundle mainBundle] infoDictionary];
@@ -230,7 +232,7 @@ static int HOS_ALERT_TAG_ADDRESSBOOK = 998;
 
 @end
 
-@implementation OTUniversalMethod (URL)
+@implementation DHSystemFunction (URL)
 
 - (NSMutableDictionary *)getURLParameters:(NSString *)urlStr {
     

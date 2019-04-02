@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5908BAFB224A362B00B91DC7 /* ScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908BAF9224A362B00B91DC7 /* ScrollTextView.m */; };
+		590FBB6322530BFF008E1BA4 /* OTUniversalMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 590FBB6122530BFF008E1BA4 /* OTUniversalMethod.m */; };
 		595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF6223FAAD30055B8A4 /* RSA.m */; };
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
 		8D6CA40896590E11D46F1DF0 /* libPods-DHUtilityLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09B63771C0BB9E7EF9503A /* libPods-DHUtilityLibrary.a */; };
@@ -43,6 +44,8 @@
 		3CCC5D73172C885A61620661 /* Pods-DHUtilityLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHUtilityLibrary.debug.xcconfig"; path = "Target Support Files/Pods-DHUtilityLibrary/Pods-DHUtilityLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		5908BAF9224A362B00B91DC7 /* ScrollTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollTextView.m; sourceTree = "<group>"; };
 		5908BAFA224A362B00B91DC7 /* ScrollTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollTextView.h; sourceTree = "<group>"; };
+		590FBB6122530BFF008E1BA4 /* OTUniversalMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTUniversalMethod.m; sourceTree = "<group>"; };
+		590FBB6222530BFF008E1BA4 /* OTUniversalMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTUniversalMethod.h; sourceTree = "<group>"; };
 		595D8EF5223FAAD30055B8A4 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		595D8EF6223FAAD30055B8A4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		595D8EF8223FAB2C0055B8A4 /* RSA_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA_Demo.h; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 			children = (
 				E30487362180B77C0028229C /* DYDeviceInfo.h */,
 				E30487352180B77C0028229C /* DYDeviceInfo.m */,
+				590FBB6222530BFF008E1BA4 /* OTUniversalMethod.h */,
+				590FBB6122530BFF008E1BA4 /* OTUniversalMethod.m */,
 				ED552508224A4E3B009457BB /* SQLHelper */,
 			);
 			path = Utility;
@@ -388,6 +393,7 @@
 				E3389B76217B13C4007FAA58 /* NSDictionary+SafeAccess.m in Sources */,
 				E3389B70217B105F007FAA58 /* UIView+EqualGap.m in Sources */,
 				595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */,
+				590FBB6322530BFF008E1BA4 /* OTUniversalMethod.m in Sources */,
 				E36B7FE121A0035E00FC6ED3 /* NSDate+Extensions.m in Sources */,
 				E3389B6A217B0CFB007FAA58 /* UIView+LayoutMethods.m in Sources */,
 				5908BAFB224A362B00B91DC7 /* ScrollTextView.m in Sources */,

@@ -19,7 +19,7 @@ extern NSString * const NOTIFICATION_DID_LOCAL_NOTIFY_CHANGED;
 @interface DHSystemFunction (LocalNotification)//本地推送提醒
 - (void)makeLocalNotification:(NSString *)key content:(NSString *)content info:(NSString *)info after:(NSTimeInterval)seconds;
 - (void)cancelLocalNotification:(NSString *)key;
-- (BOOL)isKeyFindInLocalNotification:(NSString *)key;
+- (BOOL)isKeyFindInLocalNotification:(NSString *)key; 
 + (void)cancelAllNotification;
 
 @end

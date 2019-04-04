@@ -29,4 +29,16 @@
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
 #define NSBundle_View(nibname,index) [[[NSBundle mainBundle] loadNibNamed:nibname owner:nil options:nil] objectAtIndex:index];
+
+#define IPHONE_X_And_Above \
+({BOOL isPhoneXAndAbove = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneXAndAbove = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneXAndAbove);})
+
+#define GoldenSection           0.618
+
+
+#define Flexible(x) (MIN(([UIScreen mainScreen].bounds.size.width),([UIScreen mainScreen].bounds.size.height))/375.0)*(x)//根据屏幕大小自动变化长度
 #endif /* MacroUtilities_h */

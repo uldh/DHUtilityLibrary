@@ -136,7 +136,7 @@ static int HOS_ALERT_TAG_ADDRESSBOOK = 998;
 @implementation DHSystemFunction (VisitDevice)
 - (BOOL)isAvailablyForAlbum {
     ALAuthorizationStatus author = [ALAssetsLibrary authorizationStatus];
-    if (author == ALAuthorizationStatusRestricted || author == ALAuthorizationStatusDenied){
+    if (author == ALAuthorizationStatusRestricted || author == ALAuthorizationStatusDenied || author == ALAuthorizationStatusNotDetermined ) {
         NSString *appName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
         NSString *msg = [NSString stringWithFormat:@"请在iPhone的“设置”-“隐私”-“照片”选项中，允许%@访问你的照片。",appName];
         UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"相册服务未开启" message:msg delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"立即开启", nil];

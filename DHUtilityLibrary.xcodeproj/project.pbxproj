@@ -25,6 +25,7 @@
 		E3389B76217B13C4007FAA58 /* NSDictionary+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E3389B72217B13C4007FAA58 /* NSDictionary+SafeAccess.m */; };
 		E3389B77217B13C4007FAA58 /* NSArray+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = E3389B75217B13C4007FAA58 /* NSArray+SafeAccess.m */; };
 		E36B7FE121A0035E00FC6ED3 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E36B7FE021A0035E00FC6ED3 /* NSDate+Extensions.m */; };
+		ED3D23F522579FA7002DD318 /* SystemSound.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3D23F422579FA7002DD318 /* SystemSound.m */; };
 		ED55250F224A4E57009457BB /* SQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ED55250A224A4E57009457BB /* SQLiteHelper.m */; };
 		ED552510224A4E57009457BB /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED55250B224A4E57009457BB /* SQLiteManager.m */; };
 		ED552511224A4E57009457BB /* DHFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED55250C224A4E57009457BB /* DHFileManager.m */; };
@@ -78,6 +79,8 @@
 		E36B7FDF21A0035E00FC6ED3 /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
 		E36B7FE021A0035E00FC6ED3 /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
 		E3D9158F2184296B001BD25D /* MacroUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroUtilities.h; sourceTree = "<group>"; };
+		ED3D23F322579FA7002DD318 /* SystemSound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemSound.h; sourceTree = "<group>"; };
+		ED3D23F422579FA7002DD318 /* SystemSound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemSound.m; sourceTree = "<group>"; };
 		ED552509224A4E57009457BB /* DHFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFileManager.h; sourceTree = "<group>"; };
 		ED55250A224A4E57009457BB /* SQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteHelper.m; sourceTree = "<group>"; };
 		ED55250B224A4E57009457BB /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
@@ -158,6 +161,7 @@
 				E30487352180B77C0028229C /* DYDeviceInfo.m */,
 				590FBB6222530BFF008E1BA4 /* DHSystemFunction.h */,
 				590FBB6122530BFF008E1BA4 /* DHSystemFunction.m */,
+				ED3D23F222579F7B002DD318 /* SystemSound */,
 				ED552508224A4E3B009457BB /* SQLHelper */,
 			);
 			path = Utility;
@@ -245,6 +249,15 @@
 				E3389B72217B13C4007FAA58 /* NSDictionary+SafeAccess.m */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		ED3D23F222579F7B002DD318 /* SystemSound */ = {
+			isa = PBXGroup;
+			children = (
+				ED3D23F322579FA7002DD318 /* SystemSound.h */,
+				ED3D23F422579FA7002DD318 /* SystemSound.m */,
+			);
+			path = SystemSound;
 			sourceTree = "<group>";
 		};
 		ED552508224A4E3B009457BB /* SQLHelper */ = {
@@ -386,6 +399,7 @@
 				E3389B50217B0796007FAA58 /* main.m in Sources */,
 				595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */,
 				ED552511224A4E57009457BB /* DHFileManager.m in Sources */,
+				ED3D23F522579FA7002DD318 /* SystemSound.m in Sources */,
 				ED55250F224A4E57009457BB /* SQLiteHelper.m in Sources */,
 				E30487372180B77C0028229C /* DYDeviceInfo.m in Sources */,
 				ED552510224A4E57009457BB /* SQLiteManager.m in Sources */,

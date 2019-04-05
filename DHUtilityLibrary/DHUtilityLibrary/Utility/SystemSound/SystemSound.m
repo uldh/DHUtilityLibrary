@@ -58,6 +58,9 @@
 }
 - (void)playSoundWithID:(NSUInteger)soundIndex{
     SystemSoundID soundID;
+    if (!self.audioFileList) {
+        [self loadAudioFileList];
+    }
     AudioServicesCreateSystemSoundID((__bridge_retained CFURLRef)[self.audioFileList objectAtIndex:soundIndex],&soundID);
     AudioServicesPlaySystemSound(soundID);
     

@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray *)loadAudioFileList;
 - (NSString *)soundNameWithID:(NSUInteger)soundIndex;
 - (void)playSoundWithID:(NSUInteger)soundIndex;
+//待添加一个根据名字播放声音的方法
 @end
 
 NS_ASSUME_NONNULL_END

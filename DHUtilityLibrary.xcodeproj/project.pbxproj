@@ -29,6 +29,11 @@
 		ED55250F224A4E57009457BB /* SQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ED55250A224A4E57009457BB /* SQLiteHelper.m */; };
 		ED552510224A4E57009457BB /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED55250B224A4E57009457BB /* SQLiteManager.m */; };
 		ED552511224A4E57009457BB /* DHFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED55250C224A4E57009457BB /* DHFileManager.m */; };
+		EDD4D3BD22589C040044F8B9 /* UIImageView+DrawLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4D3B322589C030044F8B9 /* UIImageView+DrawLine.m */; };
+		EDD4D3BE22589C040044F8B9 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4D3B522589C030044F8B9 /* UIImage+Extensions.m */; };
+		EDD4D3BF22589C040044F8B9 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4D3B622589C030044F8B9 /* UIImage+ImageEffects.m */; };
+		EDD4D3C022589C040044F8B9 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4D3B722589C030044F8B9 /* UIImage+BoxBlur.m */; };
+		EDD4D3C122589C040044F8B9 /* UIImageView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4D3BB22589C040044F8B9 /* UIImageView+Extensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +93,16 @@
 		ED55250D224A4E57009457BB /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
 		ED55250E224A4E57009457BB /* SQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteHelper.h; sourceTree = "<group>"; };
 		ED552513224A5A39009457BB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EDD4D3B322589C030044F8B9 /* UIImageView+DrawLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DrawLine.m"; sourceTree = "<group>"; };
+		EDD4D3B422589C030044F8B9 /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		EDD4D3B522589C030044F8B9 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		EDD4D3B622589C030044F8B9 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		EDD4D3B722589C030044F8B9 /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
+		EDD4D3B822589C030044F8B9 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		EDD4D3B922589C030044F8B9 /* UIImageView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extensions.h"; sourceTree = "<group>"; };
+		EDD4D3BA22589C040044F8B9 /* UIImageView+DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DrawLine.h"; sourceTree = "<group>"; };
+		EDD4D3BB22589C040044F8B9 /* UIImageView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extensions.m"; sourceTree = "<group>"; };
+		EDD4D3BC22589C040044F8B9 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +249,7 @@
 				E3389B68217B0CFA007FAA58 /* UIView+LayoutMethods.m */,
 				E3389B6E217B105F007FAA58 /* UIView+EqualGap.h */,
 				E3389B6F217B105F007FAA58 /* UIView+EqualGap.m */,
+				EDD4D3B222589BEB0044F8B9 /* UIImage */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -271,6 +287,23 @@
 				ED55250B224A4E57009457BB /* SQLiteManager.m */,
 			);
 			path = SQLHelper;
+			sourceTree = "<group>";
+		};
+		EDD4D3B222589BEB0044F8B9 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				EDD4D3B422589C030044F8B9 /* UIImage+BoxBlur.h */,
+				EDD4D3B722589C030044F8B9 /* UIImage+BoxBlur.m */,
+				EDD4D3BC22589C040044F8B9 /* UIImage+Extensions.h */,
+				EDD4D3B522589C030044F8B9 /* UIImage+Extensions.m */,
+				EDD4D3B822589C030044F8B9 /* UIImage+ImageEffects.h */,
+				EDD4D3B622589C030044F8B9 /* UIImage+ImageEffects.m */,
+				EDD4D3BA22589C040044F8B9 /* UIImageView+DrawLine.h */,
+				EDD4D3B322589C030044F8B9 /* UIImageView+DrawLine.m */,
+				EDD4D3B922589C030044F8B9 /* UIImageView+Extensions.h */,
+				EDD4D3BB22589C040044F8B9 /* UIImageView+Extensions.m */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,16 +432,21 @@
 				E3389B50217B0796007FAA58 /* main.m in Sources */,
 				595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */,
 				ED552511224A4E57009457BB /* DHFileManager.m in Sources */,
+				EDD4D3C122589C040044F8B9 /* UIImageView+Extensions.m in Sources */,
 				ED3D23F522579FA7002DD318 /* SystemSound.m in Sources */,
 				ED55250F224A4E57009457BB /* SQLiteHelper.m in Sources */,
 				E30487372180B77C0028229C /* DYDeviceInfo.m in Sources */,
 				ED552510224A4E57009457BB /* SQLiteManager.m in Sources */,
 				E3389B42217B0792007FAA58 /* AppDelegate.m in Sources */,
 				E3389B76217B13C4007FAA58 /* NSDictionary+SafeAccess.m in Sources */,
+				EDD4D3BD22589C040044F8B9 /* UIImageView+DrawLine.m in Sources */,
 				E3389B70217B105F007FAA58 /* UIView+EqualGap.m in Sources */,
+				EDD4D3C022589C040044F8B9 /* UIImage+BoxBlur.m in Sources */,
 				595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */,
 				590FBB6322530BFF008E1BA4 /* DHSystemFunction.m in Sources */,
+				EDD4D3BE22589C040044F8B9 /* UIImage+Extensions.m in Sources */,
 				E36B7FE121A0035E00FC6ED3 /* NSDate+Extensions.m in Sources */,
+				EDD4D3BF22589C040044F8B9 /* UIImage+ImageEffects.m in Sources */,
 				E3389B6A217B0CFB007FAA58 /* UIView+LayoutMethods.m in Sources */,
 				5908BAFB224A362B00B91DC7 /* ScrollTextView.m in Sources */,
 				E3389B77217B13C4007FAA58 /* NSArray+SafeAccess.m in Sources */,

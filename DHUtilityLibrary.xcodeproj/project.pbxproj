@@ -12,6 +12,7 @@
 		595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF6223FAAD30055B8A4 /* RSA.m */; };
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
 		599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AC9E2229D247500EFD191 /* NSObject+JSON.m */; };
+		59B79F8A22BB62CA00F86FBE /* NSError+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B79F8822BB62CA00F86FBE /* NSError+extension.m */; };
 		8D6CA40896590E11D46F1DF0 /* libPods-DHUtilityLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09B63771C0BB9E7EF9503A /* libPods-DHUtilityLibrary.a */; };
 		E30487372180B77C0028229C /* DYDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E30487352180B77C0028229C /* DYDeviceInfo.m */; };
 		E3389B42217B0792007FAA58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3389B41217B0792007FAA58 /* AppDelegate.m */; };
@@ -59,6 +60,8 @@
 		595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSA_Demo.m; sourceTree = "<group>"; };
 		599AC9E1229D247500EFD191 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
 		599AC9E2229D247500EFD191 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		59B79F8822BB62CA00F86FBE /* NSError+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+extension.m"; sourceTree = "<group>"; };
+		59B79F8922BB62CA00F86FBE /* NSError+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+extension.h"; sourceTree = "<group>"; };
 		C12497B2D705D3F00F7C3DCA /* Pods-DHUtilityLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHUtilityLibrary.release.xcconfig"; path = "Target Support Files/Pods-DHUtilityLibrary/Pods-DHUtilityLibrary.release.xcconfig"; sourceTree = "<group>"; };
 		CE09B63771C0BB9E7EF9503A /* libPods-DHUtilityLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHUtilityLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30487352180B77C0028229C /* DYDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDeviceInfo.m; sourceTree = "<group>"; };
@@ -260,6 +263,8 @@
 		E3389B67217B0A77007FAA58 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				59B79F8922BB62CA00F86FBE /* NSError+extension.h */,
+				59B79F8822BB62CA00F86FBE /* NSError+extension.m */,
 				E36B7FDF21A0035E00FC6ED3 /* NSDate+Extensions.h */,
 				E36B7FE021A0035E00FC6ED3 /* NSDate+Extensions.m */,
 				E3389B74217B13C4007FAA58 /* NSArray+SafeAccess.h */,
@@ -442,6 +447,7 @@
 				ED55250F224A4E57009457BB /* SQLiteHelper.m in Sources */,
 				E30487372180B77C0028229C /* DYDeviceInfo.m in Sources */,
 				ED552510224A4E57009457BB /* SQLiteManager.m in Sources */,
+				59B79F8A22BB62CA00F86FBE /* NSError+extension.m in Sources */,
 				599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */,
 				E3389B42217B0792007FAA58 /* AppDelegate.m in Sources */,
 				E3389B76217B13C4007FAA58 /* NSDictionary+SafeAccess.m in Sources */,

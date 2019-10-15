@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5908BAFB224A362B00B91DC7 /* ScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908BAF9224A362B00B91DC7 /* ScrollTextView.m */; };
 		590FBB6322530BFF008E1BA4 /* DHSystemFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 590FBB6122530BFF008E1BA4 /* DHSystemFunction.m */; };
+		5931EA0423556ED1007C9E6A /* GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5931EA0323556ED1007C9E6A /* GIF.m */; };
 		595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF6223FAAD30055B8A4 /* RSA.m */; };
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
 		599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AC9E2229D247500EFD191 /* NSObject+JSON.m */; };
@@ -54,6 +55,8 @@
 		5908BAFA224A362B00B91DC7 /* ScrollTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollTextView.h; sourceTree = "<group>"; };
 		590FBB6122530BFF008E1BA4 /* DHSystemFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSystemFunction.m; sourceTree = "<group>"; };
 		590FBB6222530BFF008E1BA4 /* DHSystemFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSystemFunction.h; sourceTree = "<group>"; };
+		5931EA0223556ED1007C9E6A /* GIF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIF.h; sourceTree = "<group>"; };
+		5931EA0323556ED1007C9E6A /* GIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIF.m; sourceTree = "<group>"; };
 		595D8EF5223FAAD30055B8A4 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		595D8EF6223FAAD30055B8A4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		595D8EF8223FAB2C0055B8A4 /* RSA_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA_Demo.h; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 			children = (
 				5908BAFA224A362B00B91DC7 /* ScrollTextView.h */,
 				5908BAF9224A362B00B91DC7 /* ScrollTextView.m */,
+				5931EA0223556ED1007C9E6A /* GIF.h */,
+				5931EA0323556ED1007C9E6A /* GIF.m */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -456,6 +461,7 @@
 				EDD4D3C022589C040044F8B9 /* UIImage+BoxBlur.m in Sources */,
 				595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */,
 				590FBB6322530BFF008E1BA4 /* DHSystemFunction.m in Sources */,
+				5931EA0423556ED1007C9E6A /* GIF.m in Sources */,
 				EDD4D3BE22589C040044F8B9 /* UIImage+Extensions.m in Sources */,
 				E36B7FE121A0035E00FC6ED3 /* NSDate+Extensions.m in Sources */,
 				EDD4D3BF22589C040044F8B9 /* UIImage+ImageEffects.m in Sources */,
@@ -621,7 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8DXZ4T7CFV;
+				DEVELOPMENT_TEAM = DVD927FFZ5;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DHUtilityLibrary/PrefixHeader.pch";
 				INFOPLIST_FILE = DHUtilityLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -641,7 +647,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8DXZ4T7CFV;
+				DEVELOPMENT_TEAM = DVD927FFZ5;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DHUtilityLibrary/PrefixHeader.pch";
 				INFOPLIST_FILE = DHUtilityLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

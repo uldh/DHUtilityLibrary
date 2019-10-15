@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 NetEase. All rights reserved.
 //
 
-#import "UIImage+JLImageEffects.h"
+//#import "UIImage+JLImageEffects.h"
 #import <Accelerate/Accelerate.h>
 #import <float.h>
 @implementation UIImage(ImageEffects)

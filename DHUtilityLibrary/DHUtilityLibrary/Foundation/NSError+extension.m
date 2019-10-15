@@ -27,11 +27,11 @@
 }
 
 + (NSError *)errorWithError:(NSError *)error {
-    NSString* localizedString = NETWOTK_FIALED_TIPS;
+    NSString* localizedString = @"NETWOTK_FIALED_TIPS";
     if (error.code == 404 ||
         error.code == 500 ||
         error.code == 400 ) {
-        localizedString = NETWOTK_NOT_WORK_TIPS;
+        localizedString = @"NETWOTK_NOT_WORK_TIPS";
     }
     return [self errorWithLocalDescription:localizedString];
 }

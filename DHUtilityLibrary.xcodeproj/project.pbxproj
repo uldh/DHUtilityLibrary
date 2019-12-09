@@ -10,6 +10,8 @@
 		5908BAFB224A362B00B91DC7 /* ScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908BAF9224A362B00B91DC7 /* ScrollTextView.m */; };
 		590FBB6322530BFF008E1BA4 /* DHSystemFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 590FBB6122530BFF008E1BA4 /* DHSystemFunction.m */; };
 		5931EA0423556ED1007C9E6A /* GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5931EA0323556ED1007C9E6A /* GIF.m */; };
+		594AD9E4239E260D00637A30 /* StatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9E3239E260D00637A30 /* StatusBarViewController.m */; };
+		594AD9E8239E2B6E00637A30 /* NaviForStatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9E7239E2B6E00637A30 /* NaviForStatusBarViewController.m */; };
 		595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF6223FAAD30055B8A4 /* RSA.m */; };
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
 		599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AC9E2229D247500EFD191 /* NSObject+JSON.m */; };
@@ -57,6 +59,10 @@
 		590FBB6222530BFF008E1BA4 /* DHSystemFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSystemFunction.h; sourceTree = "<group>"; };
 		5931EA0223556ED1007C9E6A /* GIF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIF.h; sourceTree = "<group>"; };
 		5931EA0323556ED1007C9E6A /* GIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIF.m; sourceTree = "<group>"; };
+		594AD9E2239E260D00637A30 /* StatusBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusBarViewController.h; sourceTree = "<group>"; };
+		594AD9E3239E260D00637A30 /* StatusBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarViewController.m; sourceTree = "<group>"; };
+		594AD9E6239E2B6E00637A30 /* NaviForStatusBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaviForStatusBarViewController.h; sourceTree = "<group>"; };
+		594AD9E7239E2B6E00637A30 /* NaviForStatusBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviForStatusBarViewController.m; sourceTree = "<group>"; };
 		595D8EF5223FAAD30055B8A4 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		595D8EF6223FAAD30055B8A4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		595D8EF8223FAB2C0055B8A4 /* RSA_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA_Demo.h; sourceTree = "<group>"; };
@@ -161,6 +167,17 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		594AD9E5239E2B1000637A30 /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				594AD9E2239E260D00637A30 /* StatusBarViewController.h */,
+				594AD9E3239E260D00637A30 /* StatusBarViewController.m */,
+				594AD9E6239E2B6E00637A30 /* NaviForStatusBarViewController.h */,
+				594AD9E7239E2B6E00637A30 /* NaviForStatusBarViewController.m */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
 		595D8EF4223FAAB80055B8A4 /* RSA */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +204,7 @@
 				E30487352180B77C0028229C /* DYDeviceInfo.m */,
 				590FBB6222530BFF008E1BA4 /* DHSystemFunction.h */,
 				590FBB6122530BFF008E1BA4 /* DHSystemFunction.m */,
+				594AD9E5239E2B1000637A30 /* StatusBar */,
 				ED3D23F222579F7B002DD318 /* SystemSound */,
 				ED552508224A4E3B009457BB /* SQLHelper */,
 			);
@@ -445,8 +463,10 @@
 			files = (
 				E3389B45217B0792007FAA58 /* ViewController.m in Sources */,
 				E3389B50217B0796007FAA58 /* main.m in Sources */,
+				594AD9E4239E260D00637A30 /* StatusBarViewController.m in Sources */,
 				595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */,
 				ED552511224A4E57009457BB /* DHFileManager.m in Sources */,
+				594AD9E8239E2B6E00637A30 /* NaviForStatusBarViewController.m in Sources */,
 				EDD4D3C122589C040044F8B9 /* UIImageView+Extensions.m in Sources */,
 				ED3D23F522579FA7002DD318 /* SystemSound.m in Sources */,
 				ED55250F224A4E57009457BB /* SQLiteHelper.m in Sources */,

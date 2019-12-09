@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "StatusBarViewController.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+- (IBAction)clickedButton:(id)sender{
+    StatusBarViewController * vc = [StatusBarViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
 
 @end

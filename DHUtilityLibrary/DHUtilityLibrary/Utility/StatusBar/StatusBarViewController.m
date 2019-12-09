@@ -71,4 +71,20 @@
         }
     }
 }
+
+#pragma mark -status bar hidden
+- (void)whenYouWantTohiddenAfterLoadedView{
+    if([self respondsToSelector:@selector(setNeedsStatusBarAppearanceUpdate)]){
+        [self prefersStatusBarHidden];
+        [self performSelector:@selector(setNeedsStatusBarAppearanceUpdate)];
+    }
+}
+- (BOOL)prefersStatusBarHidden{
+    BOOL shouldHidden;
+    if (shouldHidden) {
+        return YES;
+    }else{
+        return NO;
+    }
+}
 @end

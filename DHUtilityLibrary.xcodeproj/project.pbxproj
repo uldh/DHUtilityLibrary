@@ -12,6 +12,8 @@
 		5931EA0423556ED1007C9E6A /* GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 5931EA0323556ED1007C9E6A /* GIF.m */; };
 		594AD9E4239E260D00637A30 /* StatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9E3239E260D00637A30 /* StatusBarViewController.m */; };
 		594AD9E8239E2B6E00637A30 /* NaviForStatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9E7239E2B6E00637A30 /* NaviForStatusBarViewController.m */; };
+		594AD9EC239F492F00637A30 /* WebExplorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9EB239F492F00637A30 /* WebExplorViewController.m */; };
+		594AD9EE239F497400637A30 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 594AD9ED239F497400637A30 /* ReadMe */; };
 		595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF6223FAAD30055B8A4 /* RSA.m */; };
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
 		599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AC9E2229D247500EFD191 /* NSObject+JSON.m */; };
@@ -63,6 +65,9 @@
 		594AD9E3239E260D00637A30 /* StatusBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusBarViewController.m; sourceTree = "<group>"; };
 		594AD9E6239E2B6E00637A30 /* NaviForStatusBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaviForStatusBarViewController.h; sourceTree = "<group>"; };
 		594AD9E7239E2B6E00637A30 /* NaviForStatusBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviForStatusBarViewController.m; sourceTree = "<group>"; };
+		594AD9EA239F492F00637A30 /* WebExplorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebExplorViewController.h; sourceTree = "<group>"; };
+		594AD9EB239F492F00637A30 /* WebExplorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebExplorViewController.m; sourceTree = "<group>"; };
+		594AD9ED239F497400637A30 /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		595D8EF5223FAAD30055B8A4 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		595D8EF6223FAAD30055B8A4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		595D8EF8223FAB2C0055B8A4 /* RSA_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA_Demo.h; sourceTree = "<group>"; };
@@ -178,6 +183,15 @@
 			path = StatusBar;
 			sourceTree = "<group>";
 		};
+		594AD9E9239F491B00637A30 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				594AD9EA239F492F00637A30 /* WebExplorViewController.h */,
+				594AD9EB239F492F00637A30 /* WebExplorViewController.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 		595D8EF4223FAAB80055B8A4 /* RSA */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +218,7 @@
 				E30487352180B77C0028229C /* DYDeviceInfo.m */,
 				590FBB6222530BFF008E1BA4 /* DHSystemFunction.h */,
 				590FBB6122530BFF008E1BA4 /* DHSystemFunction.m */,
+				594AD9E9239F491B00637A30 /* WebView */,
 				594AD9E5239E2B1000637A30 /* StatusBar */,
 				ED3D23F222579F7B002DD318 /* SystemSound */,
 				ED552508224A4E3B009457BB /* SQLHelper */,
@@ -234,6 +249,7 @@
 		E3389B3F217B0792007FAA58 /* DHUtilityLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				594AD9ED239F497400637A30 /* ReadMe */,
 				E3389B40217B0792007FAA58 /* AppDelegate.h */,
 				E3389B41217B0792007FAA58 /* AppDelegate.m */,
 				E3389B43217B0792007FAA58 /* ViewController.h */,
@@ -420,6 +436,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594AD9EE239F497400637A30 /* ReadMe in Resources */,
 				E3389B4D217B0796007FAA58 /* LaunchScreen.storyboard in Resources */,
 				E3389B4A217B0796007FAA58 /* Assets.xcassets in Resources */,
 				E3389B48217B0792007FAA58 /* Main.storyboard in Resources */,
@@ -484,6 +501,7 @@
 				5931EA0423556ED1007C9E6A /* GIF.m in Sources */,
 				EDD4D3BE22589C040044F8B9 /* UIImage+Extensions.m in Sources */,
 				E36B7FE121A0035E00FC6ED3 /* NSDate+Extensions.m in Sources */,
+				594AD9EC239F492F00637A30 /* WebExplorViewController.m in Sources */,
 				EDD4D3BF22589C040044F8B9 /* UIImage+ImageEffects.m in Sources */,
 				E3389B6A217B0CFB007FAA58 /* UIView+LayoutMethods.m in Sources */,
 				5908BAFB224A362B00B91DC7 /* ScrollTextView.m in Sources */,

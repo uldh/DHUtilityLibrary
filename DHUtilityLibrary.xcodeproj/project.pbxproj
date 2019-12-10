@@ -266,12 +266,12 @@
 				5908BAF8224A361B00B91DC7 /* SubViews */,
 				E30487342180B6EB0028229C /* Utility */,
 				E3389B67217B0A77007FAA58 /* Foundation */,
-				E3389B65217B0A43007FAA58 /* UI */,
+				E3389B65217B0A43007FAA58 /* UIKit */,
 			);
 			path = DHUtilityLibrary;
 			sourceTree = "<group>";
 		};
-		E3389B65217B0A43007FAA58 /* UI */ = {
+		E3389B65217B0A43007FAA58 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
 				E3389B69217B0CFA007FAA58 /* UIView+LayoutMethods.h */,
@@ -280,7 +280,7 @@
 				E3389B6F217B105F007FAA58 /* UIView+EqualGap.m */,
 				EDD4D3B222589BEB0044F8B9 /* UIImage */,
 			);
-			path = UI;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		E3389B67217B0A77007FAA58 /* Foundation */ = {

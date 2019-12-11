@@ -14,6 +14,7 @@
 		594AD9E8239E2B6E00637A30 /* NaviForStatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9E7239E2B6E00637A30 /* NaviForStatusBarViewController.m */; };
 		594AD9EC239F492F00637A30 /* WebExplorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9EB239F492F00637A30 /* WebExplorViewController.m */; };
 		594AD9EE239F497400637A30 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 594AD9ED239F497400637A30 /* ReadMe */; };
+		594AD9F423A0823000637A30 /* NSString+NETextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9F223A0823000637A30 /* NSString+NETextSize.m */; };
 		595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF6223FAAD30055B8A4 /* RSA.m */; };
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
 		599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AC9E2229D247500EFD191 /* NSObject+JSON.m */; };
@@ -68,6 +69,8 @@
 		594AD9EA239F492F00637A30 /* WebExplorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebExplorViewController.h; sourceTree = "<group>"; };
 		594AD9EB239F492F00637A30 /* WebExplorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebExplorViewController.m; sourceTree = "<group>"; };
 		594AD9ED239F497400637A30 /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		594AD9F223A0823000637A30 /* NSString+NETextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NETextSize.m"; sourceTree = "<group>"; };
+		594AD9F323A0823000637A30 /* NSString+NETextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NETextSize.h"; sourceTree = "<group>"; };
 		595D8EF5223FAAD30055B8A4 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		595D8EF6223FAAD30055B8A4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		595D8EF8223FAB2C0055B8A4 /* RSA_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA_Demo.h; sourceTree = "<group>"; };
@@ -310,6 +313,8 @@
 				E3389B75217B13C4007FAA58 /* NSArray+SafeAccess.m */,
 				E3389B73217B13C4007FAA58 /* NSDictionary+SafeAccess.h */,
 				E3389B72217B13C4007FAA58 /* NSDictionary+SafeAccess.m */,
+				594AD9F323A0823000637A30 /* NSString+NETextSize.h */,
+				594AD9F223A0823000637A30 /* NSString+NETextSize.m */,
 				599AC9E1229D247500EFD191 /* NSObject+JSON.h */,
 				599AC9E2229D247500EFD191 /* NSObject+JSON.m */,
 			);
@@ -488,6 +493,7 @@
 				ED3D23F522579FA7002DD318 /* SystemSound.m in Sources */,
 				ED55250F224A4E57009457BB /* SQLiteHelper.m in Sources */,
 				E30487372180B77C0028229C /* DYDeviceInfo.m in Sources */,
+				594AD9F423A0823000637A30 /* NSString+NETextSize.m in Sources */,
 				ED552510224A4E57009457BB /* SQLiteManager.m in Sources */,
 				59B79F8A22BB62CA00F86FBE /* NSError+extension.m in Sources */,
 				599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */,

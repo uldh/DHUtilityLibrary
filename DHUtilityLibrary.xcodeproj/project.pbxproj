@@ -17,6 +17,7 @@
 		594AD9F423A0823000637A30 /* NSString+NETextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9F223A0823000637A30 /* NSString+NETextSize.m */; };
 		595026A723A1EA3500779B41 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 595026A623A1EA3400779B41 /* UIImage+Util.m */; };
 		595026AD23A20E0800779B41 /* UINavigationItem+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 595026AB23A20E0800779B41 /* UINavigationItem+Title.m */; };
+		595026AF23A21E1C00779B41 /* UI设计规范模板.png in Resources */ = {isa = PBXBuildFile; fileRef = 595026AE23A21E1B00779B41 /* UI设计规范模板.png */; };
 		595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF6223FAAD30055B8A4 /* RSA.m */; };
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
 		599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AC9E2229D247500EFD191 /* NSObject+JSON.m */; };
@@ -77,6 +78,7 @@
 		595026A623A1EA3400779B41 /* UIImage+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Util.m"; sourceTree = "<group>"; };
 		595026AB23A20E0800779B41 /* UINavigationItem+Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Title.m"; sourceTree = "<group>"; };
 		595026AC23A20E0800779B41 /* UINavigationItem+Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Title.h"; sourceTree = "<group>"; };
+		595026AE23A21E1B00779B41 /* UI设计规范模板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UI设计规范模板.png"; sourceTree = "<group>"; };
 		595D8EF5223FAAD30055B8A4 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		595D8EF6223FAAD30055B8A4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		595D8EF8223FAB2C0055B8A4 /* RSA_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA_Demo.h; sourceTree = "<group>"; };
@@ -259,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				594AD9ED239F497400637A30 /* ReadMe */,
+				595026AE23A21E1B00779B41 /* UI设计规范模板.png */,
 				E3389B40217B0792007FAA58 /* AppDelegate.h */,
 				E3389B41217B0792007FAA58 /* AppDelegate.m */,
 				E3389B43217B0792007FAA58 /* ViewController.h */,
@@ -453,6 +456,7 @@
 			files = (
 				594AD9EE239F497400637A30 /* ReadMe in Resources */,
 				E3389B4D217B0796007FAA58 /* LaunchScreen.storyboard in Resources */,
+				595026AF23A21E1C00779B41 /* UI设计规范模板.png in Resources */,
 				E3389B4A217B0796007FAA58 /* Assets.xcassets in Resources */,
 				E3389B48217B0792007FAA58 /* Main.storyboard in Resources */,
 			);

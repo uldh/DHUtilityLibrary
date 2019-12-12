@@ -15,6 +15,8 @@
 		594AD9EC239F492F00637A30 /* WebExplorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9EB239F492F00637A30 /* WebExplorViewController.m */; };
 		594AD9EE239F497400637A30 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 594AD9ED239F497400637A30 /* ReadMe */; };
 		594AD9F423A0823000637A30 /* NSString+NETextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 594AD9F223A0823000637A30 /* NSString+NETextSize.m */; };
+		595026A723A1EA3500779B41 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 595026A623A1EA3400779B41 /* UIImage+Util.m */; };
+		595026AD23A20E0800779B41 /* UINavigationItem+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 595026AB23A20E0800779B41 /* UINavigationItem+Title.m */; };
 		595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF6223FAAD30055B8A4 /* RSA.m */; };
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
 		599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AC9E2229D247500EFD191 /* NSObject+JSON.m */; };
@@ -71,6 +73,10 @@
 		594AD9ED239F497400637A30 /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		594AD9F223A0823000637A30 /* NSString+NETextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NETextSize.m"; sourceTree = "<group>"; };
 		594AD9F323A0823000637A30 /* NSString+NETextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NETextSize.h"; sourceTree = "<group>"; };
+		595026A523A1EA3400779B41 /* UIImage+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Util.h"; sourceTree = "<group>"; };
+		595026A623A1EA3400779B41 /* UIImage+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Util.m"; sourceTree = "<group>"; };
+		595026AB23A20E0800779B41 /* UINavigationItem+Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Title.m"; sourceTree = "<group>"; };
+		595026AC23A20E0800779B41 /* UINavigationItem+Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Title.h"; sourceTree = "<group>"; };
 		595D8EF5223FAAD30055B8A4 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		595D8EF6223FAAD30055B8A4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		595D8EF8223FAB2C0055B8A4 /* RSA_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA_Demo.h; sourceTree = "<group>"; };
@@ -293,6 +299,8 @@
 		E3389B65217B0A43007FAA58 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				595026A523A1EA3400779B41 /* UIImage+Util.h */,
+				595026A623A1EA3400779B41 /* UIImage+Util.m */,
 				E3389B69217B0CFA007FAA58 /* UIView+LayoutMethods.h */,
 				E3389B68217B0CFA007FAA58 /* UIView+LayoutMethods.m */,
 				E3389B6E217B105F007FAA58 /* UIView+EqualGap.h */,
@@ -317,6 +325,8 @@
 				594AD9F223A0823000637A30 /* NSString+NETextSize.m */,
 				599AC9E1229D247500EFD191 /* NSObject+JSON.h */,
 				599AC9E2229D247500EFD191 /* NSObject+JSON.m */,
+				595026AC23A20E0800779B41 /* UINavigationItem+Title.h */,
+				595026AB23A20E0800779B41 /* UINavigationItem+Title.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -500,11 +510,13 @@
 				E3389B42217B0792007FAA58 /* AppDelegate.m in Sources */,
 				E3389B76217B13C4007FAA58 /* NSDictionary+SafeAccess.m in Sources */,
 				EDD4D3BD22589C040044F8B9 /* UIImageView+DrawLine.m in Sources */,
+				595026A723A1EA3500779B41 /* UIImage+Util.m in Sources */,
 				E3389B70217B105F007FAA58 /* UIView+EqualGap.m in Sources */,
 				EDD4D3C022589C040044F8B9 /* UIImage+BoxBlur.m in Sources */,
 				595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */,
 				590FBB6322530BFF008E1BA4 /* DHSystemFunction.m in Sources */,
 				5931EA0423556ED1007C9E6A /* GIF.m in Sources */,
+				595026AD23A20E0800779B41 /* UINavigationItem+Title.m in Sources */,
 				EDD4D3BE22589C040044F8B9 /* UIImage+Extensions.m in Sources */,
 				E36B7FE121A0035E00FC6ED3 /* NSDate+Extensions.m in Sources */,
 				594AD9EC239F492F00637A30 /* WebExplorViewController.m in Sources */,

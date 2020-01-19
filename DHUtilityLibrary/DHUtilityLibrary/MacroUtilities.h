@@ -37,6 +37,21 @@ isPhoneXAndAbove = [[UIApplication sharedApplication] delegate].window.safeAreaI
 }\
 (isPhoneXAndAbove);})
 
+//有 safeArea 判定为异形屏
+#define isAbnormalScreen ({\
+int tmp = 0;\
+if (@available(iOS 11.0, *)) {\
+    if (!UIEdgeInsetsEqualToEdgeInsets([UIApplication sharedApplication].delegate.window.safeAreaInsets, UIEdgeInsetsZero)) {\
+        tmp = 1;\
+    }else{\
+        tmp = 0;\
+    }\
+}else{\
+    tmp = 0;\
+}\
+    tmp;\
+})
+
 #define GoldenSection           0.618
 
 

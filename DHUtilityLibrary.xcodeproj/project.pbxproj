@@ -20,6 +20,7 @@
 		595026AF23A21E1C00779B41 /* UI设计规范模板.png in Resources */ = {isa = PBXBuildFile; fileRef = 595026AE23A21E1B00779B41 /* UI设计规范模板.png */; };
 		595D8EF7223FAAD40055B8A4 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF6223FAAD30055B8A4 /* RSA.m */; };
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
+		596722F923B0D76000D02B16 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 596722F723B0D76000D02B16 /* Helper.m */; };
 		599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AC9E2229D247500EFD191 /* NSObject+JSON.m */; };
 		59B79F8A22BB62CA00F86FBE /* NSError+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B79F8822BB62CA00F86FBE /* NSError+extension.m */; };
 		8D6CA40896590E11D46F1DF0 /* libPods-DHUtilityLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09B63771C0BB9E7EF9503A /* libPods-DHUtilityLibrary.a */; };
@@ -83,6 +84,8 @@
 		595D8EF6223FAAD30055B8A4 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		595D8EF8223FAB2C0055B8A4 /* RSA_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA_Demo.h; sourceTree = "<group>"; };
 		595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSA_Demo.m; sourceTree = "<group>"; };
+		596722F723B0D76000D02B16 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		596722F823B0D76000D02B16 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
 		599AC9E1229D247500EFD191 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
 		599AC9E2229D247500EFD191 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
 		59B79F8822BB62CA00F86FBE /* NSError+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+extension.m"; sourceTree = "<group>"; };
@@ -214,6 +217,15 @@
 			path = RSA;
 			sourceTree = "<group>";
 		};
+		596722F623B0D65300D02B16 /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				596722F823B0D76000D02B16 /* Helper.h */,
+				596722F723B0D76000D02B16 /* Helper.m */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
 		6FC1B8EB8C735FB3D1EBAEDD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				E3D9158F2184296B001BD25D /* MacroUtilities.h */,
+				596722F623B0D65300D02B16 /* ToDo */,
 				5908BAFC224A363400B91DC7 /* Tools */,
 				5908BAF8224A361B00B91DC7 /* SubViews */,
 				E30487342180B6EB0028229C /* Utility */,
@@ -500,6 +513,7 @@
 				E3389B45217B0792007FAA58 /* ViewController.m in Sources */,
 				E3389B50217B0796007FAA58 /* main.m in Sources */,
 				594AD9E4239E260D00637A30 /* StatusBarViewController.m in Sources */,
+				596722F923B0D76000D02B16 /* Helper.m in Sources */,
 				595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */,
 				ED552511224A4E57009457BB /* DHFileManager.m in Sources */,
 				594AD9E8239E2B6E00637A30 /* NaviForStatusBarViewController.m in Sources */,

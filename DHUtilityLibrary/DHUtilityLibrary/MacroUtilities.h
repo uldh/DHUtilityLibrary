@@ -57,9 +57,34 @@ if (@available(iOS 11.0, *)) {\
 
 #define Flexible(x) (MIN(([UIScreen mainScreen].bounds.size.width),([UIScreen mainScreen].bounds.size.height))/375.0)*(x)//根据屏幕大小自动变化长度
 
+//
 #ifdef DEBUG
 #define DHLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
 #else
 #define DHLog(...)
 #endif
+
+
+#if DEBUG
+#define NSLog(format, ...) \
+    do { \
+        NSLog(@"<<%@:%d : %s>>\n%@", \
+        [[NSString stringWithUTF8String:__FILE__] lastPathComponent], \
+        __LINE__, \
+        __FUNCTION__, \
+        [NSString stringWithFormat:format, ##__VA_ARGS__]); \
+    } while(0)
+#else
+#define NSLog(format, ...) do{ } while(0)
+#endif
+
+
+
+
+
+
+
+
+
+
 #endif /* MacroUtilities_h */

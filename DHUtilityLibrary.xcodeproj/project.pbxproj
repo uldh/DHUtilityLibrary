@@ -22,6 +22,7 @@
 		595D8EFA223FAB2C0055B8A4 /* RSA_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 595D8EF9223FAB2C0055B8A4 /* RSA_Demo.m */; };
 		596722F923B0D76000D02B16 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 596722F723B0D76000D02B16 /* Helper.m */; };
 		599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 599AC9E2229D247500EFD191 /* NSObject+JSON.m */; };
+		59A3B7B626450ACD0090F357 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A3B7B526450ACD0090F357 /* FileManager.m */; };
 		59B79F8A22BB62CA00F86FBE /* NSError+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B79F8822BB62CA00F86FBE /* NSError+extension.m */; };
 		8D6CA40896590E11D46F1DF0 /* libPods-DHUtilityLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE09B63771C0BB9E7EF9503A /* libPods-DHUtilityLibrary.a */; };
 		E30487372180B77C0028229C /* DYDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E30487352180B77C0028229C /* DYDeviceInfo.m */; };
@@ -88,6 +89,8 @@
 		596722F823B0D76000D02B16 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
 		599AC9E1229D247500EFD191 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
 		599AC9E2229D247500EFD191 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		59A3B7B426450ACD0090F357 /* FileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		59A3B7B526450ACD0090F357 /* FileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
 		59B79F8822BB62CA00F86FBE /* NSError+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+extension.m"; sourceTree = "<group>"; };
 		59B79F8922BB62CA00F86FBE /* NSError+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+extension.h"; sourceTree = "<group>"; };
 		C12497B2D705D3F00F7C3DCA /* Pods-DHUtilityLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHUtilityLibrary.release.xcconfig"; path = "Target Support Files/Pods-DHUtilityLibrary/Pods-DHUtilityLibrary.release.xcconfig"; sourceTree = "<group>"; };
@@ -226,6 +229,15 @@
 			path = ToDo;
 			sourceTree = "<group>";
 		};
+		59A3B7B326450A050090F357 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				59A3B7B426450ACD0090F357 /* FileManager.h */,
+				59A3B7B526450ACD0090F357 /* FileManager.m */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
 		6FC1B8EB8C735FB3D1EBAEDD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +253,7 @@
 				E30487352180B77C0028229C /* DYDeviceInfo.m */,
 				590FBB6222530BFF008E1BA4 /* DHSystemFunction.h */,
 				590FBB6122530BFF008E1BA4 /* DHSystemFunction.m */,
+				59A3B7B326450A050090F357 /* FileManager */,
 				594AD9E9239F491B00637A30 /* WebView */,
 				594AD9E5239E2B1000637A30 /* StatusBar */,
 				ED3D23F222579F7B002DD318 /* SystemSound */,
@@ -527,6 +540,7 @@
 				599AC9E3229D247600EFD191 /* NSObject+JSON.m in Sources */,
 				E3389B42217B0792007FAA58 /* AppDelegate.m in Sources */,
 				E3389B76217B13C4007FAA58 /* NSDictionary+SafeAccess.m in Sources */,
+				59A3B7B626450ACD0090F357 /* FileManager.m in Sources */,
 				EDD4D3BD22589C040044F8B9 /* UIImageView+DrawLine.m in Sources */,
 				595026A723A1EA3500779B41 /* UIImage+Util.m in Sources */,
 				E3389B70217B105F007FAA58 /* UIView+EqualGap.m in Sources */,
